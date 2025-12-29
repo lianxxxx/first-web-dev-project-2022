@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body{
+background: url(/Images/PicsArt_12-06-07.13.14\ -\ Edited.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: scroll;
+
+}
+
+.box{
+width:2000px;
+height:2500px;
+border:solid 10px black;
+border-radius: 50px;
+background-color:white;
+margin-right:auto;
+margin-left:auto;
+padding-left: 170px;
+padding-right: 170px;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+input{
+
+  text-align: left;
+  width:200px;
+  height:110px;
+  border-radius: 15px;
+  font-size: 70px;
+font-family:Poppins;
+}
+
+
+input:hover{
+border:solid 10px green;
+
+
+}
+input::placeholder {
+    font-family: Poppins;
+    font-size:50px;
+    font-weight: lighter;
+    color:#ced4da;
+}
+label{
+ font-size:100px;
+text-align: left;
+font-weight:lighter;
+font-family: Poppins;
+}
+
+select{
+  width:1000px;
+  height:120px;
+  padding:10px;
+  font-size:70px;
+  font-family: Poppins;
+  font-weight: bolder;
+}
+
+
+
+.fpass{
+font-size:35px;
+font-family:Verdana;
+font-weight: bolder;
+color:blue;
+text-align:right;
+
+}
+
+.fpass:hover{
+
+  color:red;
+}
+
+.reg{
+border: solid 10px green;
+width:2000px;
+height:200px;
+border-radius: 15px;
+
+}
+
+.reg:hover{
+color:white;
+background-color: green;
+}
+
+.acc{
+font-family:Poppins;
+font-size:60px;
+color:gray;
+
+}
+
+.login{
+font-family:Poppins;
+font-size:75px;
+color: blue;
+
+}
+
+.login:hover{
+color:red;
+}
+
+
+
+
+</style>
+
+
+</head>
+<body>
+   
+    <div class="box"  >
+        <center>
+    
+          <img src="/Images/PicsArt_12-06-07.13.14.png" title="Don Mariano Marcos Memorial State University" style="position:relative; width:500px; height:500px;">
+        
+        <br>
+        <br>
+        <br>
+       
+        
+        <select>
+          <option  style="text-align:center; font-size:50px; font-family:Poppins; font-weight:bolder;">CAMPUS</option>
+          <option  style="text-align:center; font-size:60px; font-family:Poppins; font-weight:bolder;color:green;">NLUC</option>
+          <option  style="text-align:center;font-size:60px; font-family:Poppins; font-weight:bolder;color:red;">MLUC</option>
+          <option  style="text-align:center;font-size:60px; font-family:Poppins; font-weight:bolder;color:blue;">SLUC</option>
+        </select>
+        </center> 
+        <br>
+        <br>
+         <label >NAME</label> <br>
+         <br>
+        <input type="text"  placeholder="Enter your full name" required>
+        <br>
+        <br>
+        <label >ID NUMBER</label><br>
+        <br>
+        <input type="number"  placeholder="Enter your ID number" required>
+        <br>
+        <br>
+        <label >COURSE</label> <br>
+        <br>
+        <input type="text" placeholder="Enter your course" required> 
+        <br>
+        <br>
+        <label >PASSWORD</label> <br>
+        <br>
+        <input type="password"  placeholder="Enter your password" required>
+        
+          <a href="pass.html" class="fpass" title="In case you forgot">
+           <p><u  style="text-align:left; font-family:Poppins; font-size:65px;">FORGOT PASSWORD?</u></p> 
+            
+            </a>
+        <button  class="reg" style="font-size:100px;font-family:Verdana; font-weight:bolder; letter-spacing:100px;">
+        &nbsp;REGISTER</button>
+        
+        
+        <p class="acc" style="text-align:center">Already have an account?
+          <a href="login.html" class="login" title="Click to Log in">
+        LOG IN
+        
+          </a>
+    
+        
+        </p>
+        </div>
+        
+
+</body>
+</html>

@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ISPE 101</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+      body {
+        background-image: url(/Images/Edukasyon.ph_Schools-offering-online-coursesv21\ -\ Edited\ -\ Edited.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      .cntnt {
+        position: fixed;
+        left: 82px;
+        color: white;
+        bottom: 375px;
+        font-size: 33px;
+        font-family: Helvetica;
+        font-weight: bolder;
+        letter-spacing: 2px;
+      }
+
+      .title {
+        position: fixed;
+        left: 77px;
+        width: 200px;
+        top: 130px;
+        font-size: 80px;
+        font-family: Verdana;
+        font-weight: bolder;
+        letter-spacing: 15px;
+
+        animation: sr;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+      }
+      @keyframes sr {
+        0% {
+          color: #b7efc5;
+        }
+        4% {
+          color: #92e6a7;
+        }
+        7% {
+          color: #6ede8a;
+        }
+        10% {
+          color: #4ad66d;
+        }
+        13% {
+          color: #2dc653;
+        }
+        16% {
+          color: #25a244;
+        }
+        19% {
+          color: #208b3a;
+        }
+        22% {
+          color: #1a7431;
+        }
+        25% {
+          color: #155d27;
+        }
+        28% {
+          color: #caf0f8;
+        }
+        31% {
+          color: #ade8f4;
+        }
+        34% {
+          color: #90e0ef;
+        }
+        37% {
+          color: #4cc9f0;
+        }
+        40% {
+          color: #48cae4;
+        }
+        43% {
+          color: #00b4d8;
+        }
+        46% {
+          color: #0096c7;
+        }
+        48% {
+          color: #0077b6;
+        }
+        50% {
+          color: #023e8a;
+        }
+        52% {
+          color: #03045e;
+        }
+        54% {
+          color: #fff0f3;
+        }
+        56% {
+          color: #ffccd5;
+        }
+        58% {
+          color: #ffb3c1;
+        }
+        60% {
+          color: #ff8fa3;
+        }
+        62% {
+          color: #ff758f;
+        }
+        64% {
+          color: #ff4d6d;
+        }
+        66% {
+          color: #ff0f53;
+        }
+        68% {
+          color: #d91049;
+        }
+        70% {
+          color: #800f2f;
+        }
+        72% {
+          color: #590d22;
+        }
+        74% {
+          color: #fef9df;
+        }
+        77% {
+          color: #fdf2bf;
+        }
+        80% {
+          color: #fff4ac;
+        }
+        83% {
+          color: #fbec9f;
+        }
+        87% {
+          color: #f9df60;
+        }
+        90% {
+          color: #f8d840;
+        }
+        94% {
+          color: #f6d220;
+        }
+        98% {
+          color: #f5cb00;
+        }
+        100% {
+          color: #ffc800;
+        }
+      }
+
+      .line1 {
+        height: 5px;
+        width: 57.5%;
+        background-color: white;
+        bottom: 340px;
+        left: 82px;
+        position: absolute;
+      }
+
+      .line2 {
+        height: 5px;
+        width: 57.5%;
+        left: 82px;
+        background-color: white;
+        bottom: 255px;
+        position: absolute;
+      }
+
+      .cmps {
+        font-size: 60px;
+        font-family: Poppins;
+        font-weight: bolder;
+        position: absolute;
+        bottom: 255px;
+        animation: cmps;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+      }
+
+      @keyframes cmps {
+        from {
+          margin-right: 0%;
+        }
+        to {
+          margin-left: 10%;
+        }
+      }
+
+      .fb {
+        height: 85px;
+        width: 180px;
+        bottom: 170px;
+        position: absolute;
+        left: 20px;
+      }
+      .gmail {
+        height: 50px;
+        width: 57px;
+        bottom: 185px;
+        left: 190px;
+        position: absolute;
+      }
+
+      .tiktok {
+        height: 62px;
+        bottom: 178px;
+        left: 286px;
+        position: absolute;
+      }
+
+      .box {
+        width: 310px;
+        height: 495px;
+        border-radius: 20px;
+        background-color: white;
+        float: right;
+        margin-right: 72px;
+        margin-top: 150px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+
+      input {
+        text-align: left;
+        width: 300px;
+        height: 19px;
+        border-radius: 5px;
+        font-size: 15px;
+        font-family: Poppins;
+      }
+
+      input:hover {
+        border: solid 4px green;
+      }
+
+      input::placeholder {
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: lighter;
+        color: #ced4da;
+      }
+      label {
+        font-size: 15px;
+        text-align: left;
+        font-weight: lighter;
+        font-family: Poppins;
+      }
+
+      select {
+        width: 100px;
+        height: 20px;
+        font-family: Poppins;
+        font-size: 10px;
+        text-align: center;
+      }
+
+      .fpass {
+        font-family: Verdana;
+        font-weight: bolder;
+        color: blue;
+        text-align: right;
+      }
+
+      .fpass:hover { 
+        color: red;
+      }
+
+      .reg {
+        border: solid 5px green;
+        width: 310px;
+        height: 35px;
+        border-radius: 7px;
+      }
+
+      .reg:hover {
+        color: white;
+        background-color: green;
+      }
+      .resize {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        float: right;
+      }
+
+      .acc {
+        font-family: Poppins;
+        font-size: 13px;
+        color: gray;
+      }
+
+      .login {
+        font-family: Poppins;
+        font-size: 15px;
+        color: blue;
+      }
+
+      .login:hover {
+        color: red;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="title">&nbsp;&nbsp;&nbsp;&nbsp;STUDENT REGISTRATION</div>
+
+    <div class="cntnt">EXCLUSIVE FOR STUDENTS OF DMMMSU ONLY.</div>
+    <div class="line1"></div>
+    <div class="line2"></div>
+    <div class="cmps">
+      <span style="color: #affc41">NLUC&nbsp;&nbsp;</span>
+      <span style="color: red">MLUC&nbsp;&nbsp;</span>
+      <span style="color: #00a8e8">SLUC&nbsp;&nbsp;</span
+      ><span style="color: rgb(250, 250, 9)">OUS</span>
+    </div>
+
+    <a href="https://www.facebook.com/DMMMSUEduPh/" title="Facebook">
+      <img src="/Images/Facebook-Logo-PNG-Clipart-Background.png" class="fb" />
+    </a>
+
+    <a href="https://www.dmmmsu.edu.ph" title="G-mail">
+      <img src="/Images/Gmail-Transparent-Logo-1536x1152.png" class="gmail" />
+    </a>
+
+    <a href="https://www.tiktok.com/@dmmmsulibraries" title="TiktTok">
+      <img src="/Images/R.png" class="tiktok" />
+    </a>
+
+    <div class="box">
+      <center>
+        <img
+          src="/Images/PicsArt_12-06-07.13.14.png"
+          title="Don Mariano Marcos Memorial State University"
+          style="position: relative; width: 85px; height: 85px"
+        />
+
+        <br />
+        <br />
+
+        <select>
+          <option
+            style="font-size: 15px; font-family: Poppins; font-weight: bolder"
+          >
+            CAMPUS
+          </option>
+          <option
+            style="
+              text-align: center;
+              font-size: 15px;
+              font-family: Poppins;
+              font-weight: bolder;
+              color: green;
+            "
+          >
+            NLUC
+          </option>
+          <option
+            style="
+              text-align: center;
+              font-size: 15px;
+              font-family: Poppins;
+              font-weight: bolder;
+              color: red;
+            "
+          >
+            MLUC
+          </option>
+          <option
+            style="
+              text-align: center;
+              font-size: 15px;
+              font-family: Poppins;
+              font-weight: bolder;
+              color: blue;
+            "
+          >
+            SLUC
+          </option>
+          <option
+            style="
+              text-align: center;
+              font-size: 15px;
+              font-family: Poppins;
+              font-weight: bolder;
+              color: rgb(249, 230, 13);
+            "
+          >
+            OUS
+          </option>
+        </select>
+      </center>
+
+      <label>NAME</label> <br />
+
+      <input type="text" placeholder="Enter your full name" required />
+      <br /><br />
+      <label>ID NUMBER</label>
+      <br />
+      <input type="number" placeholder="Enter your ID number" required />
+      <br />
+      <br />
+      <label>COURSE</label>
+      <br />
+      <input type="text" placeholder="Enter your course" required />
+      <br />
+      <br />
+      <label>PASSWORD</label>
+      <input type="password" placeholder="Enter your password" required />
+
+      <a href="pass.html" class="fpass" title="In case you forgot">
+        <p>
+          <u style="text-align: left; font-family: Poppins; font-size: 14px"
+            >FORGOT PASSWORD?</u
+          >
+        </p>
+      </a>
+      <button
+        class="reg"
+        style="
+          font-size: 18px;
+          font-family: Verdana;
+          font-weight: bolder;
+          letter-spacing: 20px;
+        "
+      >
+        &nbsp;REGISTER
+      </button>
+
+      <p class="acc" style="text-align: center">
+        Already have an account?
+        <a href="login.html" class="login" title="Click to Log in"> LOG IN </a>
+
+        <a href="rsz.html" title="Click to resize">
+          <img src="/Images/resize-icon-9.jpg" class="resize" />
+        </a>
+      </p>
+    </div>
+  </body>
+</html>
