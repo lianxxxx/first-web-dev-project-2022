@@ -16,6 +16,7 @@ Screenshots are included in the `screenshots` folder to show how the project loo
 A screen recording demonstrates hover effects and interactions:  
 
 A short demo of the project is available [here](https://drive.google.com/file/d/1c3b7Bx71Gl4aVL4BhPRuYm23PpxPvV0I/view?usp=drive_link).
+> Note: The original video file is too large to host on GitHub.
 ![](OUTPUT/Screenshot%20(405).png)
 ![Registration Form](OUTPUT/Screenshot%20(406).png)
 ![Login Form](OUTPUT/Screenshot%20(407).png)
